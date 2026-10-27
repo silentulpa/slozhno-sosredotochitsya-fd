@@ -13,10 +13,10 @@
   .decorative__element {
     display: none;
   }
-  
+ 
 }
 
-.page.theme-light {
+:root.theme-light {
   --title-color: #FFC2E6;
   --text-color: #353430;
   --sub-text-color: #353430;
@@ -24,8 +24,10 @@
   --btn-color:#353430;
   --backgroung-image: url(../images/cover-image-light.png);
   --back-color: #fff1f7;
+  --header-menu-hover-color: rgb(50 49 45 / 0.4);
 }
 
-.theme-light .decorative__element {
+
+.decorative__element {
   display: none;
 }
